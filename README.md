@@ -1,4 +1,4 @@
-# wsl_configuration
+# Linux on Windows working with a corporate VPN!
 
 Doing more and more work in a Linux system, I'm forcing myself to use Debian CLI more.
 As a result, given WSL doesn't allow for your VPN to work, I've discovered Linux containers do!

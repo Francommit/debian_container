@@ -1,6 +1,14 @@
-# Linux on Windows working with a corporate VPN!
+# WSL Configuration
 
-Doing more and more work in a Linux system, I'm forcing myself to use Debian CLI more.
-As a result, given WSL doesn't allow for your VPN to work, I've discovered Linux containers do!
+```
+sudo apt-get update && sudo apt-get upgrade && sudo apt -y install git 
+```
 
-The net result, I'm just using a Debian container with a few tweaks to my liking!
+#### SSH Keys
+```
+# Generate your ssh key
+ssh-keygen -t rsa -b 4096 -C wsl
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cat .ssh/id_rsa.pub
+```

@@ -4,7 +4,7 @@ Given WSL or WSL2 doesn't support VPNs running on the host, running them in dock
 
 #### Setup Container
 ````
-docker build . -t debian .
+docker build . -t debian
 docker run debian -it
 ````
 

@@ -1,5 +1,8 @@
 # WSL Configuration
 
+## Debian
+
+#### Initial Setup
 ```
 sudo apt-get update && sudo apt-get upgrade && sudo apt -y install git 
 ```

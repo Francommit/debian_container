@@ -20,5 +20,11 @@ sudo apt-get update -y && sudo apt-get install -y docker-ce && sudo usermod -aG 
 ````
 Close your terminal if everything up to here has worked.
 ````
-sudo apt-get install -y python python-pip && pip install --user docker-compose
+sudo apt-get install -y python python-pip && pip install --user docker-compose && export PATH="$PATH:$HOME/.local/bin"
+````
+
+Due to Microsoft reasons, you need to edit your profile for PATH changes to remain persistant
+````
+vim ~/.profile
+export PATH="$PATH:$HOME/.local/bin"
 ````

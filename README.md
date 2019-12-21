@@ -1,4 +1,4 @@
-# Docker Debian Container Windows
+# Docker Debian Image
 
 Given WSL or WSL2 doesn't support VPNs running on the host, running them in docker works and gives us the flexibility of Linux.
 
